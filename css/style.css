@@ -702,3 +702,90 @@ opacity:.85;
 font-size:15px;
 
 }
+/* ================= FOOTER ================= */
+
+footer{
+
+background:#0F172A;
+
+color:white;
+
+padding:70px 8% 25px;
+
+}
+
+.footer-container{
+
+display:grid;
+
+grid-template-columns:2fr 1fr 1fr 1fr;
+
+gap:50px;
+
+margin-bottom:40px;
+
+}
+
+.footer-about img{
+
+width:70px;
+
+margin-bottom:15px;
+
+}
+
+.footer-container h4{
+
+margin-bottom:20px;
+
+font-family:Poppins;
+
+}
+
+.footer-container ul{
+
+list-style:none;
+
+}
+
+.footer-container li{
+
+margin-bottom:12px;
+
+}
+
+.footer-container a{
+
+color:#CBD5E1;
+
+text-decoration:none;
+
+}
+
+.footer-container a:hover{
+
+color:white;
+
+}
+
+.footer-about p{
+
+color:#CBD5E1;
+
+line-height:28px;
+
+margin-top:10px;
+
+}
+
+.footer-bottom{
+
+border-top:1px solid rgba(255,255,255,.1);
+
+padding-top:25px;
+
+text-align:center;
+
+color:#94A3B8;
+
+}
