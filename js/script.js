@@ -63,3 +63,24 @@ header.style.boxShadow = "0 8px 25px rgba(0,0,0,.08)";
 
 });
 lucide.createIcons();
+const revealElements = document.querySelectorAll(".reveal");
+
+const revealObserver = new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("active");
+
+}
+
+});
+
+},{threshold:.15});
+
+revealElements.forEach(el=>{
+
+revealObserver.observe(el);
+
+});
