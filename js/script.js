@@ -62,3 +62,4 @@ header.style.boxShadow = "0 8px 25px rgba(0,0,0,.08)";
 }
 
 });
+lucide.createIcons();
