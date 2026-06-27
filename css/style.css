@@ -13,6 +13,33 @@ background:#F8FAFC;
 color:#1F2937;
 
 }
+/* ================= DESIGN SYSTEM ================= */
+
+:root{
+
+--primary:#4F46E5;
+--primary-dark:#4338CA;
+--secondary:#7C3AED;
+
+--bg:#F8FAFC;
+--surface:#FFFFFF;
+
+--text:#111827;
+--text-light:#6B7280;
+
+--border:#E5E7EB;
+
+--shadow-sm:0 8px 20px rgba(0,0,0,.06);
+--shadow-md:0 15px 35px rgba(0,0,0,.10);
+--shadow-lg:0 25px 60px rgba(79,70,229,.18);
+
+--radius:18px;
+
+--container:1280px;
+
+--transition:.35s ease;
+
+}
 
 /* ================= HEADER ================= */
 
