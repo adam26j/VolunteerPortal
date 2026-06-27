@@ -11,6 +11,11 @@ document.getElementById("heroLogin").onclick = () => {
 window.open(APPSCRIPT_URL,"_blank");
 
 }
+document.getElementById("ctaLogin").onclick = () => {
+
+window.open(APPSCRIPT_URL,"_blank");
+
+};
 // Simple counter animation
 
 const counters = document.querySelectorAll(".impact-card h3");
